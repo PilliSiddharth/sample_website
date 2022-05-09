@@ -1,3 +1,5 @@
+<!-- CONGRATS, SANJANA YOU MADE IT INSIDE THE WEBSITE, HOPE YOU FEEL GOOD ABOUT IT... 😑 -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,13 +12,13 @@
             <div class="nav">
                 <div class="left">
                     <!-- <img src="jains.jpg"/> -->
-                    <p id="logo">jCc bOis...</p>
+                    <p onclick="location.href='#';" style="cursor: pointer;" id="logo">jCc bOis...</p>
                 </div>
                 <div class="right">
                     <ul>
-                        <li><a href="#"> There is nothing About Us</a></li>
-                        <li><a href="#">Don't Contact Us</a></li>
-                        <li><a href="#">Shop NO!</a></li>   
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="shop.html">Shop</a></li>   
                     </ul>
                 </div>
             <!-- <h1>Header Logo</h1>  -->
@@ -28,7 +30,16 @@
                     <p class="p-text-hero">jCc bOis are bOis who live in jCc yep that's it, oh also they play random games...hope you like the helikopter hlikopter</p>
                 </div>
                 <div class="right">
-                    <img src="graphics/helicopter_PNG80062.png" alt="pinimg">
+                    <script>
+                        function play(){
+                             var audio = document.getElementById("audio");
+                             audio.play();
+                                       }
+                         </script>
+                         <img src="graphics/helicopter_PNG80062.png" value="PLAY"  onclick="play()">
+                         <audio id="audio" src="audio/helicopter.mp3" ></audio>
+
+                    <!-- <img src="graphics/helicopter_PNG80062.png" alt="pinimg" onclick="document.getElementById('audio/helicopter').play();"> -->
                 </div>
             </div>
         </header>
@@ -36,19 +47,19 @@
             <h2>jcC bOis (Can't reveal the actual face, but just imagine)</h2>
             <div class="content-info">
                 <div>
-                    <img src="graphics/eboy.JPG">
+                    <img onclick="location.href='pages/kovith.html';" style="cursor: pointer;" src="graphics/eboy.JPG">
                     <p>Kovid or Kovith</p>
                 </div>
                 <div>
-                    <img src="graphics/maxresdefault.jpg">
+                    <img onclick="location.href='pages/suhas.html';" style="cursor: pointer;" src="graphics/maxresdefault.jpg">
                     <p>Suhas 2</p>
                 </div>
                 <div>
-                    <img src="graphics/66f-1.jpg">
+                    <img onclick="location.href='pages/sid.html';" style="cursor: pointer;" src="graphics/66f-1.jpg">
                     <p>Siddharth (No cap)</p>
                 </div>
                 <div>
-                    <img src="graphics/rohSW6fcL4hcAVujAVFaxX.jpg">
+                    <img onclick="location.href='pages/sathvik.html';" style="cursor: pointer;" src="graphics/rohSW6fcL4hcAVujAVFaxX.jpg">
                     <p>Sathvik or Satvik (Does anyone care?)</p>
                 </div>
             </div>
